@@ -1,0 +1,102 @@
+a	{
+    font-size: 18px;
+    text-color:#fff;
+    text-decoration: none;
+}
+
+/* ヘッダー */
+.flex {
+    display:flex;
+    margin: 0px 0px 35px 0px;
+    position: relative;
+}
+/* 言語メニュー */
+#top_right_lang{
+    display:flex;
+    position: relative;
+    left: 400px;
+    top: 20px;
+
+}
+/* ニュース台紙1 */
+.newsDaishi {
+    display: inline-block;
+    background-image:url(../img/newsboard_sp.png);
+    width: 600px;
+    height: 428px;
+    z-index: 100;
+    margin: 5px 30px 5px 30px;}
+/* ニュース台紙2 */
+.newsDaishi2 {
+    display: inline-block;
+    background-image:url(../img/newsboard_sp.png);
+    width: 600px;
+    height: 428px;
+    z-index: 100;
+    margin: 5px 30px 5px 30px;
+}
+/* ニュース台紙3 */
+.newsDaishi3 {
+    display: inline-block;
+    background-image:url(../img/newsboard_White.png);
+    width: 600px;
+    height: 428px;
+    z-index: 100;
+    margin: 5px 30px 5px 30px;}
+#newsI {
+    text-align: left;
+    width: 90%;
+    height: 90%;
+    z-index: 200;
+    margin: 40px 0px 0px 0px;
+}
+/* 標準フォント */
+p{
+    font-size: 20px;
+    margin: 0px auto 0px;
+    padding: 0px;
+}
+/* 強調用フォント */
+p1{
+    font-size: 20px;
+    padding: 0px 0px 0px;
+    font-weight: bold;
+}
+p2{
+    font-size: 20px;
+    padding: 0px 0px 0px;
+}
+p3{
+    font-size: 20px;
+    padding: 0px 0px 0px;
+    font-weight: bold;
+}
+/* ニュース原稿用レイアウト */
+.news_Container {
+    text-align: center;
+    display: block;
+    margin: 10px 0px 0px 0px;
+    padding: 20px 0px 10px 0px;
+}
+.news_Container .n_text {
+    text-align: left;
+    display: inline-block;
+    margin: 10px 20px 10px 20px;
+}
+
+.drawer-menu-item-link {
+    display: block;
+    text-align: left;
+    font-size: 20px;
+    color: #693407;
+    margin-top: 15px;
+    margin-left: 35px;
+    text-decoration: none;
+}
+
+/* コピーライト用フォント */
+.copy {
+    text-align: center;
+    font-size: 15px;
+    color: #ffffff;
+}
