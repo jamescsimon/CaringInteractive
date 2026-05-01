@@ -1,18 +1,13 @@
-jQuery(function() {
-    var pagetop = $('#page_top');   
-    pagetop.hide();
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 100) {  //100pxスクロールしたら表示
-            pagetop.fadeIn();
-        } else {
-            pagetop.fadeOut();
-        }
-    });
-    pagetop.click(function () {
-        $('body,html').animate({
-            scrollTop: 0
-        }, 400); //0.4秒かけてトップへ移動
-        return false;
-    });
+var scrollBtn = document.getElementById('scroll-top');
 
+window.addEventListener('scroll', function() {
+  if (window.scrollY > 200) {
+    scrollBtn.classList.add('visible');
+  } else {
+    scrollBtn.classList.remove('visible');
+  }
+});
+
+scrollBtn.addEventListener('click', function() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 });
